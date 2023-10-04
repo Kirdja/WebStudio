@@ -1,0 +1,17 @@
+:root {
+    --accent-color: #2196F3; ;
+    --text-color: #FFF ;
+    --text2-color: #212121;
+    --additional-text-color: rgba(255, 255, 255, 0.60);
+    --additional2-text-color: #757575;
+    --background-color: #2F303A;
+}
+body{
+    background-color: var(--accent-color) ;
+    background-color: var(--additional-text-color);
+    background-color: var(--text2-color);
+    background-color: var(--additional2-text-color);
+     background-color: var(--background-color);
+     background-color: var(--text-color);
+
+}
