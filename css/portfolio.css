@@ -1,103 +1,121 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    }
-.navigation-link{
- color: var(--accent-color);
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.03em;
+body {
+  font-family: "Roboto", sans-serif;
 }
- /* contact */
-.contact-link{
-    color: var(--accent-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.02em; 
+.navigation-link-webStudio {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.blue-text {
+  color: #2196f3;
 }
 
-/* category */
-.categoty-button-all{
- color: var( --text-color);
-text-align: center;
-font-size: 16px;
- font-style: normal;
- font-weight: 500;
- line-height: 1.625; 
- letter-spacing: 0.03em;
+.black-text {
+  color: #000;
 }
-.categoty-button{
-color:var(--text2-color);
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height:  1.625; 
-letter-spacing:  0.03em;
+
+.navigation-link:hover {
+  color: var(--accent-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
+/* contact */
+.contact-email:hover {
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+.contact-phone:hover {
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+/* category */
+.categoty-button-all:hover {
+  border-radius: 4px;
+  background: var(--accent-color);
+  box-shadow: var(--shadow-color-button);
+
+  color: var(--text-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+
+.categoty-button:hover {
+  border-radius: 4px;
+  background: var(--accent-color);
+  box-shadow: var(--shadow-color-button);
+
+  color: var(--text-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
 }
 
 /* portfolio */
-.portfolio-title{
-color: var(--text2-color);
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 2; 
-letter-spacing: 0.06em;
+.portfolio-title {
+  color: var(--text2-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.portfolio-info{
- color: var( --additional2-text-color);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.875;
-letter-spacing: 0,03em;
+.portfolio-info {
+  color: var(--additional2-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
+  letter-spacing: 0, 03em;
 }
 
 /* footer */
-.footer-title{
-    color: var(--accent-color);
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.03em;
-    
-    color:var(--text-color);
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing:0.03em;
-    }
-    .footer-address{
-    color: var(--text-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.714285714285714; 
-    letter-spacing: 0.03em;
-    }
-    .footer-email{
-    color: var(--additional-text-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.714285714285714; 
-    letter-spacing:  0.03em;
-    }
-    
-    .footer-phone{
-    color: var(--additional-text-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height:  1.714285714285714; 
-    letter-spacing: 0.03em;
-    }
-    
+.footer-title {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
+.blue-text {
+  color: #2196f3;
+}
+
+.black-text {
+  color: #000;
+}
+.footer-address {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714285714285714;
+  letter-spacing: 0.03em;
+}
+.footer-email {
+  color: var(--additional-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714285714285714;
+  letter-spacing: 0.03em;
+}
+
+.footer-phone {
+  color: var(--additional-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714285714285714;
+  letter-spacing: 0.03em;
+}
