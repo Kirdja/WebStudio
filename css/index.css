@@ -18,6 +18,14 @@ body {
   color: #000;
 }
 
+.navigation-link{
+  color: var( --text2-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
+
 .navigation-link:hover {
   color: var(--accent-color);
   font-size: 26px;
@@ -101,14 +109,14 @@ box-shadow: var(--shadow-color-menu);
 
 /* team */
 .team-title {
-  color: var(--text2-color);
+  color:var( --text2-color);
   text-align: center;
+  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.03em;
+  letter-spacing:0.03em;
 }
-
 .team-text {
   color: var(--additional2-text-color);
   text-align: center;
