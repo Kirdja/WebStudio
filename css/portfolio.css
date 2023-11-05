@@ -16,6 +16,14 @@ body {
   color: #000;
 }
 
+.navigation-link{
+  color: var( --text2-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
+
 .navigation-link:hover {
   color: var(--accent-color);
   font-size: 26px;
@@ -83,6 +91,12 @@ body {
 }
 
 /* footer */
+.footer{
+
+  background: var(--background-color); 
+  
+}
+
 .footer-title {
   font-family: Raleway;
   font-size: 26px;
@@ -94,9 +108,10 @@ body {
   color: #2196f3;
 }
 
-.black-text {
-  color: #000;
+.white-text {
+  color: white;
 }
+
 .footer-address {
   color: var(--text-color);
   font-size: 14px;
