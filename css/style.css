@@ -17,7 +17,7 @@
      background-color: var(--text-color);
      background-color: var(--shadow-color-button);
      background-color: var(--shadow-color-menu)
-     background-color: var(--logo-text-color);
+     background-color var(--logo-text-color);
 }
 
     
