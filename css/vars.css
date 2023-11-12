@@ -8,16 +8,10 @@
     --shadow-color-button: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     --shadow-color-menu:  0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     --logo-text-color: #000;
-
-    background-color: var(--accent-color) ;
-    background-color: var(--additional-text-color);
-    background-color: var(--text2-color);
-    background-color: var(--additional2-text-color);
-     background-color: var(--background-color);
-     background-color: var(--text-color);
-     background-color: var(--shadow-color-button);
-     background-color: var(--shadow-color-menu)
-     background-color var(--logo-text-color);
+    --white-logo-color: white;
+}
+body{
+    font-family: "Roboto", sans-serif;
 }
 
     
