@@ -1,16 +1,22 @@
-.container {
+.conteiner {
   outline: solid red;
   width: 1200px;
-  margin: 15px auto 15px;
-  padding: 15px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-
 body {
   font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
 }
+
+.head {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .navigation-link-webStudio {
   font-family: Raleway;
   font-size: 26px;
@@ -68,6 +74,10 @@ a {
   letter-spacing: 0.02em;
 }
 /* category */
+.category {
+  padding-top: 100px;
+  padding-bottom: 56px;
+}
 .categoty-button-all:hover {
   cursor: pointer;
   border-radius: 4px;
@@ -96,6 +106,10 @@ a {
   letter-spacing: 0.03em;
 }
 /* portfolio */
+.portfolio {
+  padding-top: 71px;
+  padding-bottom: 140px;
+}
 .portfolio-title {
   color: var(--text2-color);
   font-size: 18px;

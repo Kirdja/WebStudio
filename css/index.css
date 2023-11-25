@@ -1,12 +1,9 @@
 .container {
   outline: solid red;
   width: 1200px;
-  margin: 15px auto 15px;
-  padding: 15px;
-}
-.head {
-  padding-top: 24x;
-  padding-bottom: 24x;
+  margin: 0 auto ;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 body {
@@ -15,6 +12,13 @@ body {
 a {
   text-decoration: none;
 }
+
+.head {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+
 
 .navigation-link-webStudio {
   font-family: Raleway;
@@ -73,6 +77,8 @@ a {
 /* menu */
 
 .menu {
+  padding-top: 200px;
+  padding-bottom: 280px;
   background: var(--background-color);
 }
 
@@ -104,6 +110,11 @@ a {
 }
 /* feature */
 
+.feature{
+  padding-top: 94px;
+  padding-bottom: 118px;
+}
+
 .feature-tittle {
   color: var(--text2-color);
   font-size: 14px;
@@ -120,6 +131,10 @@ a {
   letter-spacing: 0.03em;
 }
 /* service */
+.services{
+  padding-top: 118px;
+  padding-bottom: 438px;
+}
 .services-title {
   color: var(--text2-color);
   text-align: center;
@@ -129,6 +144,10 @@ a {
 }
 
 /* team */
+.team{
+  padding-top: 94px;
+  padding-bottom: 512px;
+}
 .team-title {
   color: var(--text2-color);
   text-align: center;
@@ -156,6 +175,8 @@ a {
 /* footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 161px;
   background: var(--background-color);
 }
 
