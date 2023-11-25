@@ -1,18 +1,19 @@
 .container {
   outline: solid red;
   width: 1200px;
-  margin: 15px auto  15px; 
-  padding: 15px; 
+  margin: 15px auto 15px;
+  padding: 15px;
 }
-.conteiner-service{
-  outline: solid red;
-  width: 1200px;
-  margin: 15px auto  15px; 
-  padding: 15px; 
+.head {
+  padding-top: 24x;
+  padding-bottom: 24x;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 
 .navigation-link-webStudio {
@@ -70,9 +71,11 @@ body {
   letter-spacing: 0.02em;
 }
 /* menu */
+
 .menu {
   background: var(--background-color);
 }
+
 .menu-title {
   color: var(--text-color);
   text-align: center;
