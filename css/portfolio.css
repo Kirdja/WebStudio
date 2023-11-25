@@ -1,3 +1,10 @@
+.container {
+  outline: solid red;
+  width: 1200px;
+  margin: 15px auto 15px; 
+  padding: 15px; 
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
