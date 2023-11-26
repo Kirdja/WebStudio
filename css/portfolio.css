@@ -75,8 +75,8 @@ a {
 }
 /* category */
 .category {
-  padding-top: 100px;
-  padding-bottom: 56px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .categoty-button-all:hover {
   cursor: pointer;
@@ -107,8 +107,8 @@ a {
 }
 /* portfolio */
 .portfolio {
-  padding-top: 71px;
-  padding-bottom: 140px;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 .portfolio-title {
   color: var(--text2-color);
@@ -128,6 +128,8 @@ a {
 
 /* footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 161px;
   background: var(--background-color);
 }
 
