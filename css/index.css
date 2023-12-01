@@ -18,9 +18,31 @@ a {
   padding-bottom: 25px;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
 
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
 
 .navigation-link-webStudio {
+   margin-right: 94px;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -81,6 +103,25 @@ a {
   padding-bottom: 280px;
   background: var(--background-color);
 }
+.menu-container{
+
+}
+.menu-title{
+  display: flex;
+  align-items: center;
+  margin-left: 452px; 
+  margin-right: 452px;
+  margin-bottom: 40px;
+  outline: solid green;
+}
+
+.menu-button{
+  display: flex;
+  align-items: center;
+  margin-left: 692px;
+  justify-content: space-between;
+  outline: solid green;
+}
 
 .menu-title {
   color: var(--text-color);
@@ -112,7 +153,7 @@ a {
 
 .feature{
   padding-top: 94px;
-  padding-bottom: 118px;
+  
 }
 
 .feature-tittle {
@@ -132,8 +173,7 @@ a {
 }
 /* service */
 .services{
-  padding-top: 118px;
-  padding-bottom: 438px;
+  padding-top: 94px;
 }
 .services-title {
   color: var(--text2-color);
@@ -145,8 +185,8 @@ a {
 
 /* team */
 .team{
-  padding-top: 94px;
-  padding-bottom: 512px;
+  padding-top: 188px;
+  padding-bottom: 94px;
 }
 .team-title {
   color: var(--text2-color);
@@ -176,7 +216,7 @@ a {
 
 .footer {
   padding-top: 60px;
-  padding-bottom: 161px;
+  padding-bottom: 60px;
   background: var(--background-color);
 }
 
