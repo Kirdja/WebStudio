@@ -103,6 +103,7 @@ a {
   background: var(--background-color);
 }
 .menu-container {
+  text-align: center;
 }
 .menu-title {
   display: flex;
