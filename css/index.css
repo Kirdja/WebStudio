@@ -130,7 +130,6 @@ a {
   width: 216px;
   height: 50px;
 
-  border-radius: 4px;
   background: var(--accent-color);
   box-shadow: var(--shadow-color-menu);
 
@@ -155,12 +154,11 @@ a {
 .feature-item {
   display: flex;
   flex-direction: column;
-  margin-bottom: auto;
+  margin-right: 30px;
 }
 
 .feature-text {
   display: flex;
-  gap: 30px;
 }
 
 .feature-tittle {
@@ -183,6 +181,7 @@ a {
 /* service */
 .services {
   padding-top: 94px;
+  padding-bottom: 94px;
   display: flex;
   text-align: center;
 }
@@ -222,11 +221,11 @@ a {
 }
 
 .team-text {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .team {
-  padding-top: 188px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -275,13 +274,10 @@ a {
   margin-bottom: 9px;
 }
 
-.footer-text {
-  margin-bottom: 9px;
+.footer-text{
+  padding-bottom: 9px;
 }
 
-.footer-text {
-  margin-bottom: 9px;
-}
 
 .footer-title {
   font-family: Raleway;
