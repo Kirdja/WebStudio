@@ -149,12 +149,12 @@ a {
 .feature-list {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .feature-item {
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
 }
 
 .feature-text {
