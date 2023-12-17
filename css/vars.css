@@ -9,6 +9,7 @@
     --shadow-color-menu:  0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     --logo-text-color: #000;
     --white-logo-color: white;
+    --bacroud-button-color: #F5F4FA;
 }
 body{
     font-family: "Roboto", sans-serif;
