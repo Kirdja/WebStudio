@@ -171,6 +171,9 @@ a {
   justify-content: space-around;
   gap: 30px;
 }
+.portfolio-item {
+  flex-basis: calc((100% - 4 * 30px) / 3); 
+}
 
 .portfolio-title {
   margin-top: 20px;
