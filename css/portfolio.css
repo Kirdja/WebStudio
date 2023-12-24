@@ -172,7 +172,7 @@ a {
   gap: 30px;
 }
 .portfolio-item {
-  flex-basis: calc((100% - 4 * 30px) / 3); 
+  flex-basis: calc((100% - 30px * 2) / 3); 
 }
 
 .portfolio-title {
